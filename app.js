@@ -136,11 +136,6 @@ if (professionalList) {
             <p class="professional-card-description">${item.description}</p>
             <div class="professional-card-link">
               <span>Explore course</span>
-              <span class="professional-card-arrow" aria-hidden="true">
-                <svg viewBox="0 0 32 32" fill="none">
-                  <path d="M7 25 25 7M11 7h14v14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
             </div>
           </div>
         </article>
@@ -157,7 +152,7 @@ if (professionalList) {
       expanded = !expanded;
       renderProfessionalCards(expanded ? professionalCourses.length : 8);
       viewMore.setAttribute('aria-expanded', String(expanded));
-      viewMore.innerHTML = expanded ? 'Show less <span aria-hidden="true">−</span>' : 'View more courses <span aria-hidden="true">＋</span>';
+      viewMore.textContent = expanded ? 'Show less' : 'View more courses';
     });
   }
 }
