@@ -47,6 +47,7 @@
 #professional-list .professional-card-arrow{width:28px;height:28px;background:transparent;color:var(--primary)}
 #professional-list .professional-card-arrow svg{width:26px;height:26px}
 #professional-list .professional-card-link{justify-content:flex-start}
+#professional-list .professional-card-link>span{font-size:12px!important;font-weight:600;color:#143d52}
 .professional-bottom{justify-content:center;margin-top:20px;padding:0;border:0}
 .professional-bottom .button{width:min(456px,100%);min-width:0;min-height:72px;justify-content:center;padding:18px 28px;border-radius:999px;font-size:16px;font-weight:600}
 .professional-note{margin-top:14px}
