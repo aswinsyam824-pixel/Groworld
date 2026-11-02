@@ -86,15 +86,17 @@ document.querySelectorAll('[data-info]').forEach((b) => {
 });
 
 const menu = document.querySelector('.menu');
-menu.onclick = () => {
-  const open = document.querySelector('#navigation').classList.toggle('open');
-  menu.setAttribute('aria-expanded', String(open));
-};
+if (menu) {
+  menu.onclick = () => {
+    const open = document.querySelector('#navigation').classList.toggle('open');
+    menu.setAttribute('aria-expanded', String(open));
+  };
+}
 
 document.querySelectorAll('#navigation a').forEach((a) => {
   a.onclick = () => {
     document.querySelector('#navigation').classList.remove('open');
-    menu.setAttribute('aria-expanded', 'false');
+    menu?.setAttribute('aria-expanded', 'false');
   };
 });
 

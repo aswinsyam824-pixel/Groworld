@@ -17,29 +17,26 @@
           <a href="#about">About us</a>
         </nav>
         <a href="#" class="brand" aria-label="GRO Business School home">
-          <img src="assets/gro-logo.png" alt="GRO Business School">
+          <img src="assets/gro-logo-black.png" alt="GRO Business School">
         </a>
         <div class="nav-actions">
           <button class="header-lms" data-info="lms">LMS login</button>
           <a class="header-contact" href="#contact">Let's talk</a>
-          <button class="menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
         </div>
       </div>
     </header>
 
     <main>
       <section class="hero">
-        <div class="hero-photo" role="img" aria-label="Graduates celebrating their achievements outdoors"></div>
-        <div class="hero-topline">
-          <span>GRO BUSINESS SCHOOL UK</span>
-          <span>SCOTLAND <i></i> GLOBAL LEARNING</span>
+        <div class="hero-photo" aria-hidden="true">
+          <video class="hero-video" autoplay muted loop playsinline poster="assets/campus.jpg">
+            <source src="assets/hero-banner.mp4" type="video/mp4">
+          </video>
         </div>
-        <h1 class="hero-display">YOUR FUTURE</h1>
-        <p class="hero-center-copy">A world of opportunity. A future shaped by you.</p>
         <div class="hero-lower-left">
           <p class="hero-kicker">LEARN WITHOUT LIMITS</p>
-          <h2>Big ambitions.<br>Boundless<br><em>possibilities.</em></h2>
-          <a class="hero-cta" href="#programmes"><span>Explore your next chapter</span><b>↗</b></a>
+          <h2><span class="hero-title-line">Big ambitions. Boundless</span><br><em>possibilities.</em></h2>
+          <a class="hero-cta" href="#programmes">Explore your next chapter</a>
         </div>
         <a class="hero-preview" href="#learning">
           <img src="assets/collaboration.jpg" alt="Learners working together online">
@@ -63,6 +60,7 @@
         <div>
           <p class="eyebrow">01 / WELCOME TO GRO</p>
           <h2>Big ambitions.<br><span>New possibilities.</span></h2>
+          <img class="about-image" src="assets/collaboration.jpg" alt="Learners collaborating around a table">
         </div>
         <div class="about-body">
           <p class="lead">A global platform for business<br class="desktop"> & technology education.</p>
@@ -112,14 +110,7 @@
               <h2 id="professional-title">Professional <em>Courses</em></h2>
               <p>Find your next step in business and technology.<br>Explore practical learning for the world ahead.</p>
             </div>
-            <span class="professional-heading-mark" aria-hidden="true">
-              <svg viewBox="0 0 160 130" fill="none">
-                <circle cx="80" cy="65" r="58" stroke="currentColor" stroke-width="1" opacity=".35"/>
-                <path d="m25 52 55-25 55 25-55 25-55-25Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
-                <path d="M46 64v27c19 14 49 14 68 0V64M132 54v35" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="132" cy="94" r="4" fill="currentColor"/>
-              </svg>
-            </span>
+            <a class="professional-heading-link" href="#programmes">View all courses</a>
           </div>
 
           <div class="professional-grid" id="professional-list"></div>
@@ -164,7 +155,7 @@
               <span>Credit transfer & progression</span>
               <span>Joint programmes</span>
             </div>
-            <button class="text-button" data-info="partner">Become an academic partner <span>↗</span></button>
+            <button class="text-button" data-info="partner">Become an academic partner</button>
           </div>
         </div>
       </section>
