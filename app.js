@@ -125,12 +125,6 @@ if (professionalList) {
           <div class="professional-photo">
             <img src="assets/${item.image}" alt="" loading="lazy">
             <span class="professional-badge">${item.label}</span>
-            <span class="professional-photo-icon" aria-hidden="true">
-              <svg viewBox="0 0 32 32" fill="none">
-                <rect x="5" y="10" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/>
-                <path d="M12 10V7.5A1.5 1.5 0 0 1 13.5 6h5A1.5 1.5 0 0 1 20 7.5V10M5 16h22M13 16v3h6v-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
           </div>
           <div class="professional-card-content">
             <span class="professional-card-label">PROFESSIONAL DEVELOPMENT</span>
