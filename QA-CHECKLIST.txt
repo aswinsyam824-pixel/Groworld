@@ -1,0 +1,21 @@
+POST-UPLOAD CHECKLIST
+====================
+[ ] Domain loads over HTTPS.
+[ ] GRO logo, hero photograph and all course images load.
+[ ] Navigation links scroll to the correct sections.
+[ ] Programme filters show the correct category.
+[ ] Professional Courses initially shows four courses.
+[ ] View more courses reveals ten courses; Show fewer returns to four.
+[ ] Course cards open the correct details; dialogs close with close button/Escape.
+[ ] Mobile navigation opens and closes.
+[ ] Desktop cards show four columns; tablet two; narrow mobile one.
+[ ] Circular LMS and Support buttons remain accessible while scrolling.
+[ ] Official LMS/support/admissions connections are set up before launch.
+[ ] Course information and proposed-degree notices are approved.
+[ ] Privacy notice and terms are approved and linked before collecting data.
+[ ] Keyboard navigation and visible focus indicators work.
+
+Validation during handover: JavaScript syntax checked; local asset references
+and ZIP integrity verified. Earlier browser checks confirmed the four-column
+course layout and View more / Show fewer interactions. Complete this checklist
+on your own hosting after uploading.

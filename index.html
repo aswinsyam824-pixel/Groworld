@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="GRO Business School UK — international online learning and professional development in business and technology.">
+    <title>GRO Business School | Your Learning. Your Future.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="utility">
+      <div class="wrap">
+        <span>BASED IN SCOTLAND. CONNECTED TO THE WORLD.</span>
+        <div>
+          <button data-info="lms">Student login ↗</button>
+          <a href="#contact">Student support ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="wrap nav">
+        <a href="#" class="brand" aria-label="GRO Business School home">
+          <img src="assets/gro-logo.jpg" alt="GRO Business School">
+        </a>
+        <nav aria-label="Main navigation" id="navigation">
+          <a href="#about">About GRO</a>
+          <a href="#programmes">Programmes</a>
+          <a href="#learning">Online learning</a>
+          <a href="#partners">Partnerships</a>
+          <a href="#admissions">Admissions</a>
+        </nav>
+        <a class="button small" href="#admissions">Apply now <span>↗</span></a>
+        <button class="menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-photo" role="img" aria-label="Graduates celebrating their achievements outdoors"></div>
+        <div class="wrap hero-content">
+          <p class="eyebrow light"><span></span> GRO BUSINESS SCHOOL UK</p>
+          <h1>Your Learning.<br><em>Your Future.</em></h1>
+          <p class="hero-copy">A world of opportunity.<br>A future shaped by you.</p>
+          <p class="hero-description">International online learning and professional development in business, management and technology.</p>
+          <div class="actions">
+            <a class="button" href="#programmes">Explore programmes <span>↗</span></a>
+            <a class="text-button" href="#about">Discover GRO <span>↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="tiny-globe">◎</span>
+            <span>Rooted in Scotland.<br><strong>Designed for a global generation.</strong></span>
+          </div>
+        </div>
+        <div class="photo-caption">A global outlook. A personal learning journey.</div>
+      </section>
+
+      <div class="benefits">
+        <div class="wrap benefit-grid">
+          <div><span>◷</span><p>Learn on your terms<small>Flexible, online learning</small></p></div>
+          <div><span>◇</span><p>Build practical skills<small>Business & technology focused</small></p></div>
+          <div><span>◎</span><p>Think beyond borders<small>An international perspective</small></p></div>
+          <div><span>↗</span><p>Move your future forward<small>Professional development</small></p></div>
+        </div>
+      </div>
+
+      <section class="section about wrap" id="about">
+        <div>
+          <p class="eyebrow">01 / WELCOME TO GRO</p>
+          <h2>Big ambitions.<br><span>New possibilities.</span></h2>
+        </div>
+        <div class="about-body">
+          <p class="lead">A global platform for business<br class="desktop"> & technology education.</p>
+          <p>GRO Business School UK Ltd is an international online education and professional development platform based in Scotland, United Kingdom. We bring practical, career-oriented learning to individuals and organisations around the world.</p>
+          <div class="vision">
+            <div>
+              <h3>Our vision</h3>
+              <p>Connect learners, academia and industry through international education.</p>
+            </div>
+            <div>
+              <h3>Our mission</h3>
+              <p>Deliver practical, flexible learning through global collaboration.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section programme-section" id="programmes">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">02 / FIND YOUR DIRECTION</p>
+              <h2>Learn today.<br><span>Lead tomorrow.</span></h2>
+            </div>
+            <p>Explore learning pathways built around<br>your interests and professional ambitions.</p>
+          </div>
+
+          <div class="tabs" role="group" aria-label="Filter programmes">
+            <button class="active" data-filter="all" aria-pressed="true">All programmes</button>
+            <button data-filter="business" aria-pressed="false">Business & management</button>
+            <button data-filter="technology" aria-pressed="false">Information technology</button>
+            <button data-filter="certificate" aria-pressed="false">Certificate programmes</button>
+            <button data-filter="diploma" aria-pressed="false">Diploma programmes</button>
+            <button data-filter="proposed" aria-pressed="false">Proposed degrees</button>
+          </div>
+
+          <div class="course-grid" id="courses"></div>
+          <p class="course-note">Programme availability, entry requirements, fees and awarding arrangements are subject to confirmation. Proposed degrees require formal university partnerships and academic approvals.</p>
+        </div>
+      </section>
+
+      <section class="professional-section" id="professional-courses" aria-labelledby="professional-title">
+        <div class="wrap">
+          <div class="professional-heading">
+            <div>
+              <p class="eyebrow light">PRACTICAL SKILLS. NEW POSSIBILITIES.</p>
+              <h2 id="professional-title">Professional <em>Courses</em></h2>
+              <p>Find your next step in business and technology.<br>Explore practical learning for the world ahead.</p>
+            </div>
+            <span class="professional-heading-mark" aria-hidden="true">
+              <svg viewBox="0 0 160 130" fill="none">
+                <circle cx="80" cy="65" r="58" stroke="currentColor" stroke-width="1" opacity=".35"/>
+                <path d="m25 52 55-25 55 25-55 25-55-25Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M46 64v27c19 14 49 14 68 0V64M132 54v35" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="132" cy="94" r="4" fill="currentColor"/>
+              </svg>
+            </span>
+          </div>
+
+          <div class="professional-grid" id="professional-list"></div>
+
+          <div class="professional-bottom">
+            <p>Build your knowledge.<br><strong>Broaden your possibilities.</strong></p>
+            <button class="button" id="view-more-courses" aria-expanded="false" aria-controls="professional-list">View more courses <span aria-hidden="true">＋</span></button>
+          </div>
+          <p class="professional-note">Course availability, entry requirements and award details are subject to confirmation.</p>
+        </div>
+      </section>
+
+      <section class="section wrap learning" id="learning">
+        <div class="learning-image">
+          <img src="assets/collaboration.jpg" alt="People learning and collaborating around a table" loading="lazy">
+          <div class="image-label">
+            <span>YOUR CLASSROOM.<br>WHEREVER YOU ARE.</span>
+            <b>↗</b>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">03 / LEARNING WITHOUT LIMITS</p>
+          <h2>Your ambitions.<br><span>Your schedule.</span></h2>
+          <p>Make space for your next chapter. Our online learning approach is designed to connect practical study with the demands of everyday life.</p>
+          <div class="learning-list">
+            <div><b>01</b><span>Live classes & recorded lectures</span></div>
+            <div><b>02</b><span>Digital resources & online assignments</span></div>
+            <div><b>03</b><span>Tutor support & progress tracking</span></div>
+          </div>
+          <button class="button navy" data-info="lms">Access GRO LMS <span>↗</span></button>
+        </div>
+      </section>
+
+      <section class="partners" id="partners">
+        <div class="wrap partner-inner">
+          <div>
+            <p class="eyebrow light">04 / GROWING THROUGH COLLABORATION</p>
+            <h2>Better together.<br><em>Greater possibilities.</em></h2>
+          </div>
+          <div>
+            <p>We’re building international academic connections.</p>
+            <p>GRO is actively exploring partnerships with recognised universities and awarding organisations to expand access to education through online learning.</p>
+            <div class="partner-tags">
+              <span>Academic validation</span>
+              <span>Online degree delivery</span>
+              <span>Credit transfer & progression</span>
+              <span>Joint programmes</span>
+            </div>
+            <button class="text-button" data-info="partner">Become an academic partner <span>↗</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="admissions">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">05 / YOUR NEXT CHAPTER</p>
+            <h2>A world of learning.<br><span>A clear way forward.</span></h2>
+          </div>
+          <p>From your first enquiry to your first class,<br>discover the planned admissions journey.</p>
+        </div>
+
+        <div class="steps">
+          <div>
+            <b>01</b>
+            <h3>Find your programme</h3>
+            <p>Explore business and technology pathways that match your goals.</p>
+          </div>
+          <div>
+            <b>02</b>
+            <h3>Apply & share your details</h3>
+            <p>Submit your application and academic documents when admissions open.</p>
+          </div>
+          <div>
+            <b>03</b>
+            <h3>Receive your decision</h3>
+            <p>Your application and documents are reviewed before an admission decision.</p>
+          </div>
+          <div>
+            <b>04</b>
+            <h3>Begin your journey</h3>
+            <p>Complete enrolment and fee payment, then receive your LMS access.</p>
+          </div>
+        </div>
+
+        <div class="admission-cta">
+          <p>Ready to take the next step?</p>
+          <a class="button" href="#contact">Speak to admissions <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="wrap contact-inner">
+          <p class="eyebrow">WE’RE HERE TO HELP</p>
+          <h2>Need support?</h2>
+          <p>Contact GRO Business School UK for admissions, student support, programme information, and general enquiries.</p>
+          <button class="button" data-info="support">Contact support <span>↗</span></button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-grid">
+        <div>
+          <img class="footer-logo" src="assets/gro-logo.jpg" alt="GRO Business School logo">
+          <p>International online education and professional development based in Scotland, United Kingdom.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="#about">About GRO</a>
+          <a href="#programmes">Programmes</a>
+          <a href="#learning">Online learning</a>
+          <a href="#partners">Partnerships</a>
+        </div>
+        <div>
+          <h3>Admissions</h3>
+          <a href="#admissions">How to apply</a>
+          <a href="#contact">Support</a>
+          <a href="#programmes">Course pathways</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Student enquiries and admissions details will be published here once officially confirmed.</p>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>© <span id="year"></span> GRO Business School UK Ltd</span>
+        <span>Designed for a global learning community</span>
+      </div>
+    </footer>
+
+    <div class="floating" aria-label="Quick actions">
+      <button type="button" data-info="support">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M4 15.5V8.5A2.5 2.5 0 0 1 6.5 6H7a3 3 0 0 1 3 3v1.5A1.5 1.5 0 0 1 8.5 12H7v3.5A2.5 2.5 0 0 1 4.5 18H4v-2.5Zm16 0V8.5A2.5 2.5 0 0 0 17.5 6H17a3 3 0 0 0-3 3v1.5A1.5 1.5 0 0 0 15.5 12H17v3.5A2.5 2.5 0 0 0 19.5 18H20v-2.5Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.5 18h11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>Support</span>
+      </button>
+      <button type="button" data-info="lms">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h11A2.5 2.5 0 0 1 20 8.5v7A2.5 2.5 0 0 1 17.5 18h-11A2.5 2.5 0 0 1 4 15.5v-7Zm0 0 8 5 8-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>LMS</span>
+      </button>
+    </div>
+
+    <dialog id="info" aria-labelledby="dialog-title">
+      <button class="close" aria-label="Close dialog">×</button>
+      <h2 id="dialog-title"></h2>
+      <div id="dialog-content"></div>
+      <button class="button close-bottom" type="button">Close</button>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
