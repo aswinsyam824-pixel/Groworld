@@ -44,10 +44,9 @@ function render(filter = 'all') {
         <span class="tile-shade"></span>
         <span class="tile-pill">${c.pill}</span>
         <span class="tile-body">
-          <span class="tile-kicker">${c.kicker}</span>
           <strong>${c.name}</strong>
           <span class="tile-description">${c.desc}</span>
-          <span class="tile-foot"><span>Explore course</span><span class="tile-arrow" aria-hidden="true">↗</span></span>
+          <span class="tile-arrow" aria-hidden="true">›</span>
         </span>
       </button>
     `)
