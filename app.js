@@ -28,11 +28,11 @@ dialog.addEventListener('click', (e) => {
 });
 
 const categories = [
-  {type:'business', name:'Business Management', label:'Business Management', pill:'Business', desc:'Explore the principles behind effective leadership, strategy and business growth.', image:'business.jpg', kicker:'Professional development', items:courses[0].items},
-  {type:'technology', name:'Information Technology', label:'Information Technology', pill:'Technology', desc:'Explore how technology powers modern business, data and digital transformation.', image:'technology.jpg', kicker:'Professional development', items:courses[1].items},
-  {type:'certificate', name:'Certificate Programmes', label:'Certificate Programmes', pill:'Certificate', desc:'Short-term, practical and industry-focused learning.', image:'certificate.jpg', kicker:'Career readiness', items:courses.slice(0, 2).flatMap(c => c.items).filter(x => x.startsWith('Certificate'))},
-  {type:'diploma', name:'Diploma Programmes', label:'Diploma Programmes', pill:'Diploma', desc:'Skill-based programmes with real-world application.', image:'diploma.jpg', kicker:'Career readiness', items:courses.slice(0, 2).flatMap(c => c.items).filter(x => x.startsWith('Diploma'))},
-  {type:'proposed', name:'Degree & PG Programmes', label:'Proposed Degree & PG Programmes', pill:'Degree', desc:'Future pathways in business, management and technology.', image:'degrees.jpg', kicker:'Academic pathways', items:courses[2].items}
+  {type:'business', name:'Business Management', label:'Business Management', pill:'BUSINESS', desc:'Leadership, strategy and business growth.', image:'business.jpg', kicker:'Professional development', items:courses[0].items},
+  {type:'technology', name:'Information Technology', label:'Information Technology', pill:'TECHNOLOGY', desc:'Build in-demand technical skills for a digital world.', image:'technology.jpg', kicker:'Professional development', items:courses[1].items},
+  {type:'certificate', name:'Certificate Programmes', label:'Certificate Programmes', pill:'CERTIFICATE', desc:'Short-term, practical and industry-focused learning.', image:'certificate.jpg', kicker:'Career readiness', items:courses.slice(0, 2).flatMap(c => c.items).filter(x => x.startsWith('Certificate'))},
+  {type:'diploma', name:'Diploma Programmes', label:'Diploma Programmes', pill:'DIPLOMA', desc:'Skill-based programmes with real-world application.', image:'diploma.jpg', kicker:'Career readiness', items:courses.slice(0, 2).flatMap(c => c.items).filter(x => x.startsWith('Diploma'))},
+  {type:'proposed', name:'Proposed Degree & PG Programmes', label:'Proposed Degree & PG Programmes', pill:'DEGREE', desc:'Future pathways in business, management and technology.', image:'degrees.jpg', kicker:'Academic pathways', items:courses[2].items}
 ];
 
 function render(filter = 'all') {
