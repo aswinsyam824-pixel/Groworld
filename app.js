@@ -143,16 +143,5 @@ if (professionalList) {
       .join('');
   };
 
-  renderProfessionalCards(8);
-
-  const viewMore = document.querySelector('#view-more-courses');
-  if (viewMore) {
-    let expanded = false;
-    viewMore.addEventListener('click', () => {
-      expanded = !expanded;
-      renderProfessionalCards(expanded ? professionalCourses.length : 8);
-      viewMore.setAttribute('aria-expanded', String(expanded));
-      viewMore.textContent = expanded ? 'Show less' : 'View more courses';
-    });
-  }
+  renderProfessionalCards(4);
 }
