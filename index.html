@@ -8,54 +8,49 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="utility">
-      <div class="wrap">
-        <span>BASED IN SCOTLAND. CONNECTED TO THE WORLD.</span>
-        <div>
-          <button data-info="lms">Student login ↗</button>
-          <a href="#contact">Student support ↗</a>
-        </div>
-      </div>
-    </div>
-
     <header>
       <div class="wrap nav">
+        <nav aria-label="Main navigation" id="navigation">
+          <a href="#programmes">Programmes</a>
+          <a href="#professional-courses">Courses</a>
+          <a href="#partners">Partnerships</a>
+          <a href="#about">About us</a>
+        </nav>
         <a href="#" class="brand" aria-label="GRO Business School home">
           <img src="assets/gro-logo.png" alt="GRO Business School">
         </a>
-        <nav aria-label="Main navigation" id="navigation">
-          <a href="#about">About GRO</a>
-          <a href="#programmes">Programmes</a>
-          <a href="#learning">Online learning</a>
-          <a href="#partners">Partnerships</a>
-          <a href="#admissions">Admissions</a>
-        </nav>
-        <a class="button small" href="#admissions">Apply now <span>↗</span></a>
-        <button class="menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <div class="nav-actions">
+          <button class="header-lms" data-info="lms">LMS login</button>
+          <a class="header-contact" href="#contact">Let's talk</a>
+          <button class="menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-photo" role="img" aria-label="Graduates celebrating their achievements outdoors"></div>
-        <div class="wrap hero-content">
-          <p class="eyebrow light"><span></span> GRO BUSINESS SCHOOL UK</p>
-          <h1>Your Learning.<br><em>Your Future.</em></h1>
-          <p class="hero-copy">A world of opportunity.<br>A future shaped by you.</p>
-          <p class="hero-description">International online learning and professional development in business, management and technology.</p>
-          <div class="actions">
-            <a class="button" href="#programmes">Explore programmes <span>↗</span></a>
-            <a class="text-button" href="#about">Discover GRO <span>↓</span></a>
-          </div>
-          <div class="hero-note">
-            <span class="tiny-globe">◎</span>
-            <span>Rooted in Scotland.<br><strong>Designed for a global generation.</strong></span>
-          </div>
+        <div class="hero-topline">
+          <span>GRO BUSINESS SCHOOL UK</span>
+          <span>SCOTLAND <i></i> GLOBAL LEARNING</span>
         </div>
-        <div class="photo-caption">A global outlook. A personal learning journey.</div>
+        <h1 class="hero-display">YOUR FUTURE</h1>
+        <p class="hero-center-copy">A world of opportunity. A future shaped by you.</p>
+        <div class="hero-lower-left">
+          <p class="hero-kicker">LEARN WITHOUT LIMITS</p>
+          <h2>Big ambitions.<br>Boundless<br><em>possibilities.</em></h2>
+          <a class="hero-cta" href="#programmes"><span>Explore your next chapter</span><b>↗</b></a>
+        </div>
+        <a class="hero-preview" href="#learning">
+          <img src="assets/collaboration.jpg" alt="Learners working together online">
+          <span>LEARNING WITHOUT LIMITS</span>
+          <strong>Your classroom.<br>Wherever you are.</strong>
+        </a>
+        <a class="hero-scroll" href="#benefits"><span>↓</span> SCROLL TO DISCOVER</a>
+        <p class="hero-footer-note">BUSINESS <i></i> TECHNOLOGY <i></i> PROFESSIONAL GROWTH</p>
       </section>
 
-      <div class="benefits">
+      <div class="benefits" id="benefits">
         <div class="wrap benefit-grid">
           <div><span>◷</span><p>Learn on your terms<small>Flexible, online learning</small></p></div>
           <div><span>◇</span><p>Build practical skills<small>Business & technology focused</small></p></div>
